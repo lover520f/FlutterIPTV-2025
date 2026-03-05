@@ -1,26 +1,26 @@
 {
-  "version": "1.5.18",
-  "build": 178,
-  "releaseDate": "2026-03-02",
+  "version": "1.5.19",
+  "build": 179,
+  "releaseDate": "2026-03-05",
   "assets": {
     "windows": {
-      "installer": "https://gh-proxy.org/https://github.com/shnulaa/FlutterIPTV/releases/download/v1.5.18/flutteriptv-Windows-x64-Setup.exe",
-      "portable": "https://gh-proxy.org/https://github.com/shnulaa/FlutterIPTV/releases/download/v1.5.18/flutteriptv-Windows-x64-Portable.zip"
+      "installer": "https://gh-proxy.org/https://github.com/shnulaa/FlutterIPTV/releases/download/v1.5.19/flutteriptv-Windows-x64-Setup.exe",
+      "portable": "https://gh-proxy.org/https://github.com/shnulaa/FlutterIPTV/releases/download/v1.5.19/flutteriptv-Windows-x64-Portable.zip"
     },
     "android_mobile": {
-      "arm64-v8a": "https://gh-proxy.org/https://github.com/shnulaa/FlutterIPTV/releases/download/v1.5.18/flutteriptv-Android-Mobile-arm64-v8a.apk",
-      "armeabi-v8a": "https://gh-proxy.org/https://github.com/shnulaa/FlutterIPTV/releases/download/v1.5.18/flutteriptv-Android-Mobile-armeabi-v7a.apk",
-      "x86_64": "https://gh-proxy.org/https://github.com/shnulaa/FlutterIPTV/releases/download/v1.5.18/flutteriptv-Android-Mobile-x86_64.apk"
+      "arm64-v8a": "https://gh-proxy.org/https://github.com/shnulaa/FlutterIPTV/releases/download/v1.5.19/flutteriptv-Android-Mobile-arm64-v8a.apk",
+      "armeabi-v8a": "https://gh-proxy.org/https://github.com/shnulaa/FlutterIPTV/releases/download/v1.5.19/flutteriptv-Android-Mobile-armeabi-v7a.apk",
+      "x86_64": "https://gh-proxy.org/https://github.com/shnulaa/FlutterIPTV/releases/download/v1.5.19/flutteriptv-Android-Mobile-x86_64.apk"
     },
     "android_tv": {
-      "arm64-v8a": "https://gh-proxy.org/https://github.com/shnulaa/FlutterIPTV/releases/download/v1.5.18/flutteriptv-AndroidTV-arm64-v8a.apk",
-      "armeabi-v7a": "https://gh-proxy.org/https://github.com/shnulaa/FlutterIPTV/releases/download/v1.5.18/flutteriptv-AndroidTV-armeabi-v7a.apk",
-      "x86_64": "https://gh-proxy.org/https://github.com/shnulaa/FlutterIPTV/releases/download/v1.5.18/flutteriptv-AndroidTV-x86_64.apk"
+      "arm64-v8a": "https://gh-proxy.org/https://github.com/shnulaa/FlutterIPTV/releases/download/v1.5.19/flutteriptv-AndroidTV-arm64-v8a.apk",
+      "armeabi-v7a": "https://gh-proxy.org/https://github.com/shnulaa/FlutterIPTV/releases/download/v1.5.19/flutteriptv-AndroidTV-armeabi-v7a.apk",
+      "x86_64": "https://gh-proxy.org/https://github.com/shnulaa/FlutterIPTV/releases/download/v1.5.19/flutteriptv-AndroidTV-x86_64.apk"
     }
   },
   "changelog": {
-    "zh": "- 新增：Windows便携版（免安装ZIP包）\n- 优化：GitHub Actions自动构建便携版\n- 优化：Release Notes添加侵权声明和使用说明\n- 优化：便携版包含README和portable标识文件",
-    "en": "- New: Windows Portable Version (No installation ZIP package)\n- Optimization: GitHub Actions auto-build portable version\n- Optimization: Added copyright notice and usage guide to Release Notes\n- Optimization: Portable version includes README and portable marker file"
+    "zh": "- 新增：手机端播放页面横竖屏切换悬浮按钮\n- 优化：悬浮按钮跟随控制栏显示/隐藏\n- 优化：退出播放页面自动恢复原屏幕方向设置\n- 优化：悬浮按钮位置调整,避免遮挡底部控制按钮",
+    "en": "- New: Screen orientation toggle floating button on mobile player page\n- Optimization: Floating button follows control bar visibility\n- Optimization: Auto restore screen orientation when exiting player\n- Optimization: Adjusted floating button position to avoid blocking bottom controls"
   },
   "minVersion": "1.0.0"
 }
